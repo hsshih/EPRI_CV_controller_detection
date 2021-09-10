@@ -1,6 +1,6 @@
 # EPRI-CV
 
-_Project structure for the image recognition of controller images_
+This is a proof of concept project that trains object detection algorithms to create inventories of controllers from images of electrical cabinets. We've generated synthetic training images to overcome the lack of adequate training data. The result of this project is presented in [EPRI-CV-results.pdf](https://github.com/hsshih/EPRI_CV_controller_detection/blob/main/EPRI-CV-results.pdf)
 
 
 ## Pre-requisites 
@@ -9,8 +9,6 @@ _Project structure for the image recognition of controller images_
 2. The Tensorflow object detection API
 
 A good example on how to do these two steps is given on https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html. This tutorial also shows how to install GPU Support.
-
-The following files, included in what is provided by the EPRI-CV team, are needed:
 
 
 ## Assumed project structure:
